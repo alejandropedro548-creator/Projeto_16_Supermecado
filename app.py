@@ -777,17 +777,16 @@ def dashboard():
 
 
 
-    st.write("")
+        st.write("")
 
     st.divider()
 
 
-
-   st.subheader(
+    st.subheader(
 
         "Produtos por Categoria"
 
-)
+    )
 # ==========================================================
 # CADASTRO DE PRODUTOS
 # ==========================================================
