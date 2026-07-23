@@ -783,9 +783,11 @@ def dashboard():
 
 
 
-    st.subheader(
+   st.subheader(
 
-        "
+        "Produtos por Categoria"
+
+)
 # ==========================================================
 # CADASTRO DE PRODUTOS
 # ==========================================================
