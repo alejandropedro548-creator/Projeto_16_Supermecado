@@ -1002,6 +1002,27 @@ elif pagina == "👀 Olheiro":
             unsafe_allow_html=True,
         )
 
+    st.divider()
+
+    # ========================================================
+    # DETALHES DA PROFISSÃO: OLHEIRO
+    # ========================================================
+
+    st.markdown(
+        """
+    <div class="card">
+    <h2>🔎 Informações da Profissão: Olheiro (Scout)</h2>
+    
+    <p><b>📋 O que faz:</b> Observa partidas presenciais e por vídeo para identificar novos talentos, avaliar possíveis reforços e analisar adversários.</p>
+    <p><b>🎓 Formação necessária:</b> Cursos de Análise de Desempenho e Scouting (ex: CBF Academy). Graduações em Educação Física ou Gestão Esportiva são diferenciais.</p>
+    <p><b>📜 Requisitos:</b> Licenças de Scout da CBF/CONMEBOL, conhecimento de softwares de vídeo e scout (Wyscout, Instat) e visão tática refinada.</p>
+    <p><b>💰 Média salarial:</b> R$ 3.000 a R$ 15.000 (pode ser maior em grandes clubes do futebol europeu ou Séries A/B).</p>
+    <p><b>💡 Informações importantes:</b> Exige disponibilidade para viagens constantes e habilidades de elaboração de relatórios qualitativos e quantitativos.</p>
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
+
 
 # ============================================================
 # ANALISTA DE DADOS
@@ -1236,6 +1257,27 @@ elif pagina == "🧠 Analista de Dados":
     )}
     </ul>
 
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
+
+    st.divider()
+
+    # ========================================================
+    # DETALHES DA PROFISSÃO: ANALISTA DE DADOS
+    # ========================================================
+
+    st.markdown(
+        """
+    <div class="card">
+    <h2>📊 Informações da Profissão: Analista de Dados Esportivos</h2>
+    
+    <p><b>📋 O que faz:</b> Coleta, estrutura e analisa dados de treinos e jogos para gerar relatórios e dashboards que orientam o técnico e a diretoria.</p>
+    <p><b>🎓 Formação necessária:</b> Ciência da Computação, Estatística, Análise de Sistemas, Engenharia ou Educação Física com especialização em Dados.</p>
+    <p><b>📜 Requisitos:</b> Domínio de Python, R, SQL, ferramentas de BI (Power BI, Streamlit, Tableau) e especialização em estatística aplicada ao esporte.</p>
+    <p><b>💰 Média salarial:</b> R$ 4.000 a R$ 18.000 no Brasil (pode ultrapassar R$ 30.000/mês em clubes grandes e exterior).</p>
+    <p><b>💡 Informações importantes:</b> Profissão em altíssima expansão global. É o elo principal entre a inteligência de dados e as decisões táticas do técnico.</p>
     </div>
     """,
         unsafe_allow_html=True,
@@ -1537,6 +1579,27 @@ elif pagina == "👨‍🏫 Técnico":
         unsafe_allow_html=True,
     )
 
+    st.divider()
+
+    # ========================================================
+    # DETALHES DA PROFISSÃO: TÉCNICO
+    # ========================================================
+
+    st.markdown(
+        """
+    <div class="card">
+    <h2>👨‍🏫 Informações da Profissão: Técnico (Treinador)</h2>
+    
+    <p><b>📋 O que faz:</b> Lidera a comissão técnica, define estratégias táticas, escala o time e gerencia o elenco nas partidas e treinos.</p>
+    <p><b>🎓 Formação necessária:</b> Cursos das Licenças C, B, A e PRO da CBF Academy / CONMEBOL. Licenciatura/Bacharelado em Educação Física é fortemente recomendada.</p>
+    <p><b>📜 Requisitos:</b> Licença da confederação oficial (CBF/UEFA/CONMEBOL) obrigatória para atuar em competições profissionais.</p>
+    <p><b>💰 Média salarial:</b> R$ 10.000 a R$ 500.000+ no Brasil (treinadores de topo chegam a mais de R$ 1 milhão/mês).</p>
+    <p><b>💡 Informações importantes:</b> Profissão de altíssima pressão por resultados imediatos e exigência contínua de liderança e gestão de pessoas.</p>
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
+
 
 # ============================================================
 # PREPARADOR FÍSICO
@@ -1642,6 +1705,27 @@ elif pagina == "🏃 Preparador Físico":
     recuperação adequada e acompanhamento
     da comissão técnica.
 
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
+
+    st.divider()
+
+    # ========================================================
+    # DETALHES DA PROFISSÃO: PREPARADOR FÍSICO
+    # ========================================================
+
+    st.markdown(
+        """
+    <div class="card">
+    <h2>🏃 Informações da Profissão: Preparador Físico</h2>
+    
+    <p><b>📋 O que faz:</b> Desenvolve e monitora o condicionamento físico do elenco, previne lesões e faz o controle da carga metabólica/muscular.</p>
+    <p><b>🎓 Formação necessária:</b> Graduação obrigatória em Educação Física (Bacharelado) e pós-graduação em Fisiologia do Exercício ou Treinamento Desportivo.</p>
+    <p><b>📜 Requisitos:</b> Registro ativo no CREF (Conselho Regional de Educação Física) e certificações de uso de tecnologia de GPS esportivo (Catapult, STATSports).</p>
+    <p><b>💰 Média salarial:</b> R$ 5.000 a R$ 35.000 (podendo chegar a R$ 60.000+ em grandes equipes).</p>
+    <p><b>💡 Informações importantes:</b> Atua em sintonia diária com a fisiologia, departamento médico e fisioterapia para otimizar a performance dos atletas.</p>
     </div>
     """,
         unsafe_allow_html=True,
@@ -1796,6 +1880,27 @@ elif pagina == "⚽ Jogador":
 
     if atleta["Risco de Lesão"] == "Alto":
         st.error("Necessário controle de carga física.")
+
+    st.divider()
+
+    # ========================================================
+    # DETALHES DA PROFISSÃO: JOGADOR
+    # ========================================================
+
+    st.markdown(
+        """
+    <div class="card">
+    <h2>⚽ Informações da Profissão: Jogador de Futebol Profissional</h2>
+    
+    <p><b>📋 O que faz:</b> Executa a performance tática, física e técnica dentro de campo nos treinos e partidas competitivas.</p>
+    <p><b>🎓 Formação necessária:</b> Formação em categorias de base de clubes filiados às federações de futebol.</p>
+    <p><b>📜 Requisitos:</b> Registro no BID (Boletim Informativo Diário) da CBF/FIFA e contrato de trabalho desportivo profissional ativo.</p>
+    <p><b>💰 Média salarial:</b> Variabilidade extrema. De R$ 1.500 (clubes menores e divisões de acesso) até R$ 1.500.000+/mês (estrelas da Série A do Brasileirão).</p>
+    <p><b>💡 Informações importantes:</b> Carreira curta (em média até os 35–38 anos), exigindo alto preparo mental, disciplina física e cuidados constantes com o corpo.</p>
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
 
 
 # ============================================================
